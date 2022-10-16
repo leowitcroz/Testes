@@ -1,0 +1,102 @@
+#log-in {
+  background: rgb(7, 163, 196);
+  background: linear-gradient(
+    129deg,
+    rgba(7, 163, 196, 1) 30%,
+    rgba(0, 254, 255, 1) 91%
+  );
+min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.campos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.campos input{
+    padding: 0.5%;
+    border-radius:5px ;
+    outline: 0;
+    padding-left: 11px;
+    border: none;
+}
+
+.animais{
+    margin-top: 5%;
+}
+
+.pet{
+    margin-top: 20px;
+
+}
+.pet input{
+    padding: 0.5%;
+    border-radius:5px ;
+    outline: 0;
+    padding-left: 11px;
+    border: none;
+    margin-right: 10%;
+}
+
+#dropdown{
+    padding: 0.5%;
+    border-radius:5px;
+    outline: 0;
+    border: none;
+}
+
+.empresa input{
+    padding: 0.7%;
+    border-radius:5px ;
+    outline: 0;
+    padding-left: 11px;
+    border: none;
+    margin-right: 10%;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.campos-pessoais{
+    padding: 5%;
+    background-color: antiquewhite;
+    width: 66%;
+}
+
+.inputs-pet{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#btn-pet{
+    background-color: rgb(138, 240, 113);
+    border: none;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-top: 3%;
+    width: 15%;
+
+}
+#btn-pet:hover{
+    text-decoration: underline;
+}
+
+#checkbox{
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+
